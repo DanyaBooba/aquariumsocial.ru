@@ -1,10 +1,9 @@
 :root {
     --accent: #8e95ff;
 
-    --body-color: #17152b;
-    --body-color-rgb: 23, 21, 43;
-    --body-color-alpha: #17152b99;
-    --bg-white: #1b1935;
+    --body-bg: #17152b;
+    --body-bg-rgb: 23, 21, 43;
+    --body-bg-alpha: #17152b99;
 
     --text-color: #ededed;
     --text-invert: #121212;
@@ -17,8 +16,8 @@
     --svg-icon-invert: #121212;
     --svg-github: #ededed;
 
-    --header-background: rgb(24, 22, 42, .84);
-    --header-border: #2f2b4f;
+    --nav-bg: rgb(24, 22, 42, .84);
+    --nav-border: #2f2b4f;
     --header-link-download-background: #262342;
     --header-link-download-border: #433e6d;
 

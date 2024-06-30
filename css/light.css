@@ -1,10 +1,9 @@
 :root {
     --accent: #575FCF;
 
-    --body-color: #f9f9f9;
-    --body-color-rgb: 249, 249, 249;
-    --body-color-alpha: #f9f9f999;
-    --bg-white: #fff;
+    --body-bg: #f9f9f9;
+    --body-bg-rgb: 249, 249, 249;
+    --body-bg-alpha: #f9f9f999;
 
     --text-color: #121212;
     --text-invert: #ededed;
@@ -18,9 +17,11 @@
     --svg-github: #24292f;
 
     --nav-bg: rgba(255, 255, 255, .84);
-    --header-border: #ebeff2;
-    --header-link-download-background: #fff;
-    --header-link-download-border: #dee2e6;
+    --nav-border: #ebeff2;
+    --nav-li: rgba(221, 225, 230, 0.5);
+    --nav-li-hover: rgba(221, 225, 230, 0.9);
+    --nav-li-active: rgba(18, 20, 20, 0.9);
+    --nav-li-active-hover: rgba(18, 20, 20, 0.8);
 
     --footer-background: #fff;
     --footer-border: #dee2e6;

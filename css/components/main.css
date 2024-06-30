@@ -1,3 +1,6 @@
 main.container {
     max-width: 800px;
+    padding-top: 2rem;
+    font-size: 1.25rem!important;
+    line-height: 175%;
 }
