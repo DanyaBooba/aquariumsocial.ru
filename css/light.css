@@ -1,0 +1,66 @@
+:root {
+    --accent: #575FCF;
+
+    --body-color: #f9f9f9;
+    --body-color-rgb: 249, 249, 249;
+    --body-color-alpha: #f9f9f999;
+    --bg-white: #fff;
+
+    --text-color: #121212;
+    --text-invert: #ededed;
+    --text-muted: #6c757d;
+    --text-success: #198754;
+    --text-link: #0984e3;
+    --text-link-underline: #a8a8a8;
+
+    --svg-icon: #121212;
+    --svg-icon-invert: #ededed;
+    --svg-github: #24292f;
+
+    --nav-bg: rgba(255, 255, 255, .84);
+    --header-border: #ebeff2;
+    --header-link-download-background: #fff;
+    --header-link-download-border: #dee2e6;
+
+    --footer-background: #fff;
+    --footer-border: #dee2e6;
+
+    --color-1: #0277ff;
+    --color-2: rgb(2, 95, 204, .9);
+    --color-3: #c1d8ff;
+    --color-4: #c9f9b3;
+    --color-5: #dac1ff;
+    --color-6: #f1c40f;
+    --color-7: #dd303f;
+    --color-8: #3caaff;
+    --color-9: #718093;
+    --color-10: #e84118;
+    --color-11: #0097e6;
+    --color-12: #0be881;
+    --color-13: #ffa801;
+    --color-14: #cd84f1;
+
+    --code-screen-str: #080;
+    --code-screen-kwd: #008;
+    --code-screen-com: #800;
+    --code-screen-typ: #606;
+    --code-screen-lit: #066;
+    --code-screen-pun: #660;
+    --code-screen-tag: #008;
+    --code-screen-atn: #606;
+    --code-screen-atv: #080;
+    --code-screen-dec: #606;
+    --code-screen-fun: #f00;
+
+    --code-screen-projection-str: #060;
+    --code-screen-projection-kwd: #006;
+    --code-screen-projection-com: #600;
+    --code-screen-projection-typ: #404;
+    --code-screen-projection-lit: #044;
+    --code-screen-projection-pun: #440;
+    --code-screen-projection-tag: #006;
+    --code-screen-projection-atn: #404;
+    --code-screen-projection-atv: #060;
+
+    --code-L: #eee;
+}

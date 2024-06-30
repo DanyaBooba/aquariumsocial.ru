@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+header a svg {
+    fill: var(--svg-icon);
+    height: 60px;
+    width: auto;
+    z-index: 10;
+    transition: .3s;
+}
+
+@media(hover: hover) {
+    header a:hover svg {
+        transform: rotateZ(3deg);
+    }
+}
+
+@media(hover: none) {
+    header a:hover svg {
+        transform: rotateZ(5deg);
+    }
+}
