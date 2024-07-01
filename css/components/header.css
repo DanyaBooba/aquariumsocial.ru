@@ -8,6 +8,7 @@ header {
 
 header a svg {
     fill: var(--svg-icon);
+    stroke: none !important;
     height: 60px;
     width: auto;
     z-index: 10;

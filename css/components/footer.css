@@ -22,10 +22,19 @@ footer.footer .footer__top ul {
 }
 
 footer.footer .footer__top ul li a {
+    display: flex;
+    align-items: end;
+    gap: .5rem;
     color: var(--text-color);
     text-decoration-thickness: .1rem !important;
     text-underline-offset: .15rem;
     text-decoration-color: var(--text-color);
+}
+
+footer.footer .footer__top ul li a svg {
+    stroke: var(--text-color);
+    width: 20px;
+    height: 20px;
 }
 
 footer.footer .footer__bottom p {
@@ -43,6 +52,10 @@ footer.footer .footer__bottom p a {
         text-decoration-color: var(--text-link);
     }
 
+    footer.footer .footer__top ul li a:hover svg {
+        stroke: var(--text-link);
+    }
+
     footer.footer .footer__bottom p a:hover {
         color: var(--text-link);
     }
@@ -52,6 +65,10 @@ footer.footer .footer__bottom p a {
     footer.footer .footer__top ul li a:active {
         color: var(--text-link);
         text-decoration-color: var(--text-link);
+    }
+
+    footer.footer .footer__top ul li a:active svg {
+        stroke: var(--text-link);
     }
 
     footer.footer .footer__bottom p a:active {

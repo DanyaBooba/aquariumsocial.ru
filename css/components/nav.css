@@ -54,10 +54,10 @@ nav ul li a {
 nav ul li.download a {
     background-color: var(--accent);
     color: var(--text-invert);
-    stroke: var(--text-invert);
 }
 
-nav ul li a svg {
+nav ul li.download a svg {
+    stroke: var(--text-invert);
     width: 20px;
     height: 20px;
 }

@@ -42,10 +42,10 @@
 
     font-family: ResistSans;
     color: var(--text-success);
-    stroke: var(--text-success);
 }
 
 .section-stats .section-stats__accent svg {
+    stroke: var(--text-success);
     width: 64px;
     height: 64px;
     margin-bottom: 10px;

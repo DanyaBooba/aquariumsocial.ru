@@ -18,11 +18,16 @@
 
     --nav-bg: rgb(24, 22, 42, .84);
     --nav-border: #2f2b4f;
-    --header-link-download-background: #262342;
-    --header-link-download-border: #433e6d;
+    --nav-li: rgba(47, 43, 80, 0.5);
+    --nav-li-hover: rgba(47, 43, 80, 0.9);
+    --nav-li-active: rgba(191, 185, 241, 0.9);
+    --nav-li-active-hover: rgba(191, 185, 241, 0.8);
 
     --footer-background: #17152b;
     --footer-border: #433e6d;
+
+    --section-block-bg: #433e6d;
+    --section-block-img-bg: #221e3e;
 
     --color-1: #d3cfff;
     --color-2: #34305e;
