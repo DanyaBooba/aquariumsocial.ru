@@ -1,0 +1,14 @@
+.stack-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.stack-container .section-stack img {
+    background-color: var(--section-block-img-bg);
+    border-radius: 4px;
+    padding: 1rem;
+    height: 80px;
+}
