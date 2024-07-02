@@ -239,24 +239,84 @@
                 Стек технологий
             </h2>
             <div class="stack-container">
-                <div class="section-stack">
+                <button type="button" class="btn section-stack" data-bs-toggle="modal" data-bs-target="#modalLaravel">
                     <img src="/img/stack/laravel.png" alt="Laravel">
-                </div>
-                <div class="section-stack">
+                </button>
+                <button type="button" class="btn section-stack" data-bs-toggle="modal" data-bs-target="#modalMysql">
                     <img src="/img/stack/mysql.png" alt="MySQL">
-                </div>
-                <div class="section-stack">
+                </button>
+                <button type="button" class="btn section-stack" data-bs-toggle="modal" data-bs-target="#modalPhp">
                     <img src="/img/stack/php.png" alt="PHP">
-                </div>
-                <div class="section-stack">
+                </button>
+                <button type="button" class="btn section-stack" data-bs-toggle="modal" data-bs-target="#modalBootstrap">
                     <img src="/img/stack/bootstrap.png" alt="Bootstrap">
-                </div>
-                <div class="section-stack">
+                </button>
+                <button type="button" class="btn section-stack" data-bs-toggle="modal" data-bs-target="#modalDocker">
                     <img src="/img/stack/docker.png" alt="Docker">
-                </div>
+                </button>
             </div>
         </section>
     </main>
+    <div class="modal fade" id="modalLaravel" tabindex="-1" aria-labelledby="modalLaravelLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="modalLaravelLabel">Фреймворк Laravel</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Фреймворк Laravel – это мощный инструмент для веб-разработки, который помогает решать множество
+                        задач. Одним из ключевых аспектов Laravel является его архитектура, основанная на паттерне
+                        Model-View-Controller (MVC).
+                    </p>
+    
+                    <p>
+                        Паттерн MVC разделяет приложение на три основных компонента: Модель (Model), Представление (View) и
+                        Контроллер (Controller). Модель отвечает за работу с данными, Представление отвечает за отображение
+                        интерфейса, а Контроллер связывает Модель и Представление, обрабатывая пользовательские запросы и
+                        управляя логикой приложения.
+                    </p>
+    
+                    <p>
+                        Благодаря MVC-архитектуре, Laravel обеспечивает четкое разделение ответственности, что делает код
+                        более структурированным, легко поддерживаемым и масштабируемым. Разработчики могут сосредоточиться
+                        на конкретных частях приложения, не беспокоясь о взаимодействии между ними.
+                    </p>
+    
+                    <p>
+                        Одним из ключевых компонентов Laravel является Eloquent – мощная ORM (Object-Relational Mapping)
+                        библиотека, упрощающая взаимодействие с базой данных. Eloquent позволяет работать с базой данных,
+                        используя объектно-ориентированный подход, без необходимости напрямую писать SQL-запросы. Это
+                        повышает производительность разработки, делает код более читабельным и снижает вероятность ошибок.
+                    </p>
+    
+                    <p>
+                        Благодаря Eloquent, разработчики могут создавать модели, которые представляют таблицы в базе данных,
+                        и использовать их для выполнения CRUD-операций (Create, Read, Update, Delete). Eloquent также
+                        предоставляет удобные методы для выполнения сложных запросов, таких как фильтрация, сортировка,
+                        агрегация и т.д.
+                    </p>
+    
+                    <p>
+                        Помимо MVC-архитектуры и Eloquent, Laravel предлагает множество других полезных компонентов и
+                        функций, которые облегчают разработку веб-приложений:
+                    </p>
+    
+                    <ul>
+                        <li>Маршрутизация (routing) для определения URL и связывания их с контроллерами</li>
+                        <li>Авторизация и аутентификация пользователей</li>
+                        <li>Система управления сессиями и файлами cookie</li>
+                        <li>Обработка форм и валидация данных</li>
+                        <li>Система миграций для управления схемой базы данных</li>
+                        <li>Поддержка кэширования и очередей</li>
+                        <li>Система шаблонов Blade для создания динамических представлений</li>
+                        <li>Интеграция с популярными сервисами, такими как Mailgun, Pusher, AWS и др.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="container footer">
         <div class="footer__top">
             <ul></ul>

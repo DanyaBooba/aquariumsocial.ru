@@ -6,9 +6,28 @@
     flex-wrap: wrap;
 }
 
+.stack-container .section-stack {
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 .stack-container .section-stack img {
-    background-color: var(--section-block-img-bg);
-    border-radius: 4px;
+    background-color: var(--nav-li);
+    border-radius: 6px;
     padding: 1rem;
     height: 80px;
+    transition: .7s;
+}
+
+@media(hover: hover) {
+    .stack-container .section-stack img:hover {
+        background-color: var(--nav-li-hover);
+    }
+}
+
+@media(hover: none) {
+    .stack-container .section-stack img:active {
+        background-color: var(--nav-li-hover);
+    }
 }

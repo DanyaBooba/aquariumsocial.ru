@@ -1,6 +1,6 @@
 function navList() {
     const nav = document.querySelector('nav ul')
-    document.querySelectorAll('h1[id], h2[id], h3[id]').forEach(element =>
+    document.querySelectorAll('main h1[id], main h2[id], main h3[id]').forEach(element =>
         nav.insertAdjacentHTML('beforeend', `<li id="_${element.id}"><a href='#${element.id}' onclick="navClick('_${element.id}')">${element.textContent}</a></li>`)
     )
     nav.insertAdjacentHTML('beforeend', `<li class="download">

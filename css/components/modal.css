@@ -1,0 +1,16 @@
+.modal .modal-body p:last-child {
+    margin: 0;
+}
+
+.modal .modal-header {
+    border-color: var(--nav-border);
+}
+
+.modal .modal-header button {
+    filter: var(--collapse-filter);
+}
+
+.modal .modal-content {
+    background-color: var(--body-bg);
+    border-color: var(--nav-border);
+}

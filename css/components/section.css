@@ -14,7 +14,7 @@ section:not(:first-child) {
 
 .section-block .section-block__icon img {
     background-color: var(--section-block-img-bg);
-    border-radius: 4px;
+    border-radius: 6px;
     padding: .5rem;
     width: 75px;
 }
