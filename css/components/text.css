@@ -1,3 +1,24 @@
 * {
     color: var(--text-color);
 }
+
+main a {
+    color: var(--text-color);
+    text-decoration-thickness: .3rem !important;
+    text-underline-offset: .3rem;
+    text-decoration-color: var(--text-color);
+}
+
+@media(hover: hover) {
+    main a:hover {
+        color: var(--text-link);
+        text-decoration-color: var(--text-link);
+    }
+}
+
+@media(hover: none) {
+    main a:active {
+        color: var(--text-link);
+        text-decoration-color: var(--text-link);
+    }
+}
