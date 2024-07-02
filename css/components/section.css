@@ -1,3 +1,7 @@
+section:not(:first-child) {
+    margin-top: 5rem;
+}
+
 .section-block {
     display: flex;
 
@@ -54,4 +58,16 @@
 .section-stats div:not(.section-stats__accent) {
     margin-bottom: 14px;
     font-family: ResistSans;
+}
+
+.section-stats.section-results {
+    justify-content: center;
+    align-items: end !important;
+    margin-bottom: 3rem !important;
+}
+
+.section-stats.section-why {
+    justify-content: center;
+    align-items: end !important;
+    margin-bottom: 1rem !important;
 }

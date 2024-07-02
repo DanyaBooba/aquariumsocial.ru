@@ -45,7 +45,7 @@ nav ul li a {
     background-color: var(--nav-li);
     border-radius: 50px;
     text-align: center;
-    padding: .5rem 0;
+    padding: .5rem 1rem;
     width: 100% !important;
 
     transition: .5s;
