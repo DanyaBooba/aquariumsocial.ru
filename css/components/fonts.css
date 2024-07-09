@@ -4,8 +4,8 @@
     font-display: swap;
     src: local("ResistSansText-Regular"),
         local("ResistSansText Regular"),
-        url("/fonts/ResistSans/ResistSansText-Regular.woff") format("woff"),
-        url("/fonts/ResistSans/ResistSansText-Regular.woff2") format("woff2");
+        url("https://danyabooba.github.io/aquariumsocial.ru/fonts/ResistSans/ResistSansText-Regular.woff") format("woff"),
+        url("https://danyabooba.github.io/aquariumsocial.ru/fonts/ResistSans/ResistSansText-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -15,8 +15,8 @@
     font-display: swap;
     src: local("Inter-Regular"),
         local("Inter Regular"),
-        url("/fonts/Inter/Inter-Regular.woff") format("woff"),
-        url("/fonts/Inter/Inter-Regular.woff2") format("woff2");
+        url("https://danyabooba.github.io/aquariumsocial.ru/fonts/Inter/Inter-Regular.woff") format("woff"),
+        url("https://danyabooba.github.io/aquariumsocial.ru/fonts/Inter/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -26,8 +26,8 @@
     font-display: swap;
     src: local("Inter-Medium"),
         local("Inter Medium"),
-        url("/fonts/Inter/Inter-Bold.woff") format("woff"),
-        url("/fonts/Inter/Inter-Bold.woff2") format("woff2");
+        url("https://danyabooba.github.io/aquariumsocial.ru/fonts/Inter/Inter-Bold.woff") format("woff"),
+        url("https://danyabooba.github.io/aquariumsocial.ru/fonts/Inter/Inter-Bold.woff2") format("woff2");
 }
 
 p,
